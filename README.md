@@ -1,2 +1,2 @@
 # Hibernate
-A step-by-step using Hibernate
+Step-by-step using Hibernate
