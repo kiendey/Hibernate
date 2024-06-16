@@ -5,8 +5,9 @@
              version="3.0">
     <persistence-unit name="model">
         <properties>
-            <property name="hibernate.connection.url" value="jdbc:sqlserver://localhost:1433;integratedSecurity=true;encrypt=true;trustServerCertificate=true;database=BanBook"/>
-            <property name="hibernate.connection.drive_class" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+            <property name="hibernate.connection.url" value="jdbc:sqlserver://localhost:1433;integratedSecurity=true;encrypt=true;trustServerCertificate=true;database="/>
+          //Nhớ thêm cái chỗ database ở cuối dòng trên nhé!  
+          <property name="hibernate.connection.drive_class" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
             <property name="hibernate.connection.username" value="sa"/>
             <property name="hibernate.connection.password" value="123456789"/>
         </properties>
