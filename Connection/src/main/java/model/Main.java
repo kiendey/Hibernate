@@ -1,3 +1,4 @@
+// nhớ sửa ở file persitance.xml, pom.xml 
 package model;
 
 import jakarta.persistence.*;
